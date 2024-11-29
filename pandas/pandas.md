@@ -94,3 +94,21 @@ df['Date'] = pd.to_datetime(df['Date'])  # in questo caso uso to_datetime ma dip
 ```python
 df.dropna(subset=['colonna1'], inplace=True)  # rimuove le righe che hanno una cella vuota nella colonna specificata 
 ```
+
+### Dati errati
+
+#### Rimpiazzare manualmente la cella 
+```python
+df.loc[5, 'colonna1'] = 5
+```
+
+oppure posso semplicemente eliminare la riga 
+
+```python
+df.drop(5, inplace = True) # 5 è l'index della riga che voglio eliminare
+```
+
+### Rimuovere duplicati
+```python
+df.drop_duplicates(inplace = True) # rimuovo le righe duplicate
+```
