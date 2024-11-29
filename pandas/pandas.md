@@ -9,7 +9,7 @@ Pandas è una libreria Python utilizzata per analizzare e lavorare con i dati.
 
 ### Accesso ai Dati
 
-Per ottenere una riga specificata:
+Per ottenere una riga specifica:
 ```python
 df.loc[n]  # Per indice
 df.loc["day2"]  # Per etichetta
@@ -57,26 +57,40 @@ I dati errati potrebbero essere:
 
 Un modo per liberarsi delle celle vuote è eliminare direttamente tutte le righe che contengono celle vuote con il metodo `dropna()`
 ```python
-cleaned = df.dropna() # non modifica il DataFrame originale ma ritorna una nuova copia
-df.dropna(inplace = True) # modifica direttamente il DataFrame originale
+cleaned = df.dropna()  # non modifica il DataFrame originale ma ritorna una nuova copia
+df.dropna(inplace=True)  # modifica direttamente il DataFrame originale
 ```
 
 #### Rimpiazzare valori nulli
 
-Invece di perdere l'intera riga per una cella nulla, posso riempire quella cella con un valore, con il metodo `fillna()`:
+Invece di perdere l'intera riga per una cella nulla, puoi riempire quella cella con un valore, con il metodo `fillna()`:
 ```python
-df.fillna(130, inplace = True) # riempie tutte le celle vuote del DataFrame
-df['colonna1'].fillna(130, inplace = True) # riempie tutte le celle vuote di una specifica colonna 
+df.fillna(130, inplace=True)  # riempie tutte le celle vuote del DataFrame
+df['colonna1'].fillna(130, inplace=True)  # riempie tutte le celle vuote di una specifica colonna 
 ```
 
 #### Rimpiazzare usando media, mediana o moda
-`mean()` ritorna la media
-`median()` ritorna il valore al centro una volta messi in ordine crescente i valori
-`mode()` ritorna il valore più frequente 
+- `mean()` ritorna la media
+- `median()` ritorna il valore al centro una volta messi in ordine crescente i valori
+- `mode()` ritorna il valore più frequente 
 
 ```python
 x = df["colonna1"].mean()
 x = df["colonna1"].median()
-x = df["colonna1"].mode()[0] # mode restituisce una Series con i valori più frequenti, dunque aggiungo '[0]' per prendere il primo elemento
-df["colonna1"].fillna(x, inplace = True)
+x = df["colonna1"].mode()[0]  # mode restituisce una Series con i valori più frequenti, dunque aggiungo '[0]' per prendere il primo elemento
+df["colonna1"].fillna(x, inplace=True)
+```
+
+### Pulizia dati nel formato sbagliato
+
+Hai due possibilità: o rimuovi direttamente la riga o converti la cella nel formato giusto
+
+#### Conversione del formato
+```python
+df['Date'] = pd.to_datetime(df['Date'])  # in questo caso uso to_datetime ma dipende da che formato voglio
+```
+
+#### Rimuovere righe 
+```python
+df.dropna(subset=['colonna1'], inplace=True)  # rimuove le righe che hanno una cella vuota nella colonna specificata 
 ```
