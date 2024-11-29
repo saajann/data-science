@@ -13,6 +13,7 @@ Per ottenere una riga specifica:
 ```python
 df.loc[n]  # Per indice
 df.loc["day2"]  # Per etichetta
+df.iloc[0]  # Per posizione numerica
 ```
 
 ### Caricamento dei Dati
@@ -113,11 +114,32 @@ df.drop(5, inplace = True) # 5 è l'index della riga che voglio eliminare
 df.drop_duplicates(inplace = True) # rimuovo le righe duplicate
 ```
 
-## Correlazioni
+## Correlazioni tra dati
 
 Durante l'analisi del DataFrame possiamo usare il metodo `corr()` per vedere le correlazioni tra le varie colonne.
 Il valore della correlazione tra una colonna e l'altra spazia tra -1 e 1:
 - 1 significa correlazione perfetta: quando i valori della prima colonna aumentano, aumentano anche quelli della seconda.
 - -1 significa correlazione perfetta ma al contrario: quando i valori della prima colonna aumentano, quelli della seconda diminuiscono.
 - 0 significa che c'è bassa correlazione tra le due colonne. 
+```python
+df.corr()
+```
 In generale, per avere una buona correlazione si deve avere un valore x < -0.6 oppure x > 0.6
+
+## Visualizzazione con MATPLOTLIB
+
+Pandas integra la visualizzazione di grafici semplici utilizzando `matplotlib` (libreria python). Puoi creare rapidamente grafici basati sui dati del DataFrame.
+```python
+df.plot() # grafico a linee
+df.plot(kind='bar') # grafico a barre
+df.plot(kind='barh') # grafico a barre orizzontali
+df['colonna1'].plot(kind='pie') # grafico a torta
+df.plot(kind='scatter', x='colonna1', y='colonna2') # grafico a dispersione (scatter plot)
+```
+
+## Esportazione del DataFrame
+Puoi salvare un DataFrame in un file CSV con il metodo `to_csv()`
+```python
+df.to_csv('dataframe.csv')
+df.to_csv('dataframe.csv', index = False) # esclude gli indici
+```
