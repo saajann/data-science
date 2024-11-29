@@ -108,7 +108,16 @@ oppure posso semplicemente eliminare la riga
 df.drop(5, inplace = True) # 5 è l'index della riga che voglio eliminare
 ```
 
-### Rimuovere duplicati
+### Dati duplicati
 ```python
 df.drop_duplicates(inplace = True) # rimuovo le righe duplicate
 ```
+
+## Correlazioni
+
+Durante l'analisi del DataFrame possiamo usare il metodo `corr()` per vedere le correlazioni tra le varie colonne.
+Il valore della correlazione tra una colonna e l'altra spazia tra -1 e 1:
+- 1 significa correlazione perfetta: quando i valori della prima colonna aumentano, aumentano anche quelli della seconda.
+- -1 significa correlazione perfetta ma al contrario: quando i valori della prima colonna aumentano, quelli della seconda diminuiscono.
+- 0 significa che c'è bassa correlazione tra le due colonne. 
+In generale, per avere una buona correlazione si deve avere un valore x < -0.6 oppure x > 0.6
