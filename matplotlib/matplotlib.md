@@ -82,3 +82,6 @@ Crea un grafico a torta.
 ```python
 plt.pie(sizes, labels=labels)
 ```
+
+## Esempio in main.ipynb
+Nel file `main.ipynb` ho fatto una dimostrazione di come si usa matplotlib in un notebook Jupyter. 
