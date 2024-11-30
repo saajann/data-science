@@ -13,9 +13,11 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 ### Contenuto attuale
 - **`pandas/`**
   - [pandas.md](pandas/pandas.md): Introduzione a Pandas, una libreria fondamentale per la manipolazione e l'analisi dei dati.
-
+- **`matplotlib/`**
+  - [matplotlib.md](matplotlib/matplotlib.md): Introduzione a Matplotlib, una libreria fondamentale per la visualizzazione dei dati.
+    
 ### Prossimi argomenti
-- **Matplotlib e Seaborn**: Visualizzazione dei dati.
+- **Seaborn**: Visualizzazione dei dati.
 - **Machine Learning**: Teoria di base sul ML, algoritmi supervisionati e non supervisionati.
 - **Deep Learning**: Fondamenti di reti neurali e apprendimento profondo.
 - **Preprocessing dei dati**: 
