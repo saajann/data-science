@@ -1,6 +1,6 @@
 # Data Science Journey 🚀
 
-Benvenuto nella mia repository dedicata allo studio della **Data Science**. Qui documenterò il mio percorso di apprendimento, seguendo un piano strutturato per coprire tutti i concetti fondamentali richiesti da un data scientist.
+Benvenuti nella mia repository dedicata allo studio della **Data Science**. Qui documenterò il mio percorso di apprendimento, seguendo un piano strutturato per coprire tutti i concetti fondamentali richiesti da un data scientist.
 
 ## Obiettivo 🎯
 - Imparare la **Data Science** in **180 giorni**, concentrandomi inizialmente sulla teoria.
