@@ -11,6 +11,10 @@ Benvenuti nella mia repository dedicata allo studio della **Data Science**. Qui 
 Ogni argomento è organizzato in cartelle specifiche con file Markdown che contengono spiegazioni, esempi e note utili.
 
 ### Contenuto attuale
+- **`data/`**
+  - Vari dataset usati durante lo studio
+- **`examples/`**
+  - [01_iris_EDA.ipynb](examples/01_iris_EDA.ipynb): Notebook contenente un'analisi esplorativa dei dati sul dataset Iris, consolidando Pandas e Matplotlib
 - **`pandas/`**
   - [pandas.md](pandas/pandas.md): Introduzione a Pandas, una libreria fondamentale per la manipolazione e l'analisi dei dati.
 - **`matplotlib/`**
