@@ -14,7 +14,7 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **`data/`**
   - Vari dataset usati durante lo studio
 - **`examples/`**
-  - [01_iris_EDA.ipynb](examples/01_iris_EDA.ipynb): Notebook contenente un'analisi esplorativa dei dati sul dataset Iris, consolidando Pandas e Matplotlib
+  - [01_iris_EDA.ipynb](examples/01_iris_EDA.ipynb): Notebook contenente un'analisi esplorativa dei dati sul dataset Iris
 - **`pandas/`**
   - [pandas.md](pandas/pandas.md): Introduzione a Pandas, una libreria fondamentale per la manipolazione e l'analisi dei dati.
 - **`matplotlib/`**
@@ -33,3 +33,8 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Tracciamento personale**: Ogni commit riflette un progresso specifico.
 - **Condivisione**: Altri studenti o professionisti possono utilizzare questa repository per studiare.
 - **Portfolio GitHub**: Mostro la mia attività e competenze agli eventuali datori di lavoro.
+
+## Tracciamento progressi 📆
+- **Day 1**: Introduzione a [Pandas](pandas/pandas.md) 
+- **Day 2**: Introduzione a [Matplotlib](matplotlib/matplotlib.md)
+- **Day 3**: [EDA](examples/01_iris_EDA.ipynb) sul dataset Iris per consolidare Pandas e Matplotlib
