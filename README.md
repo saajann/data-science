@@ -39,4 +39,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 1**: Introduzione a [Pandas](pandas/pandas.md) 
 - **Day 2**: Introduzione a [Matplotlib](matplotlib/matplotlib.md)
 - **Day 3**: [EDA](examples/01_iris_EDA.ipynb) sul dataset Iris per consolidare Pandas e Matplotlib
-- **Day 4**: [EDA](examples/02_titanic_EDA.ipynb) sul dataset Titanic
+- **Day 4**: [EDA](examples/02_titanic_EDA.ipynb) sul dataset Titanic e aggiunta una [scaletta](EDA/EDA.md) da seguire quando si fa analisi esplorativa sui dati
