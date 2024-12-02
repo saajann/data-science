@@ -21,7 +21,6 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
   - [matplotlib.md](matplotlib/matplotlib.md): Introduzione a Matplotlib, una libreria fondamentale per la visualizzazione dei dati.
     
 ### Prossimi argomenti
-- **Seaborn**: Visualizzazione dei dati.
 - **Machine Learning**: Teoria di base sul ML, algoritmi supervisionati e non supervisionati.
 - **Deep Learning**: Fondamenti di reti neurali e apprendimento profondo.
 - **Preprocessing dei dati**: 
