@@ -9,7 +9,6 @@ Grafici adatti a feature NUMERICHE
 ### Distribution plot
 Mostra la distribuzione di una variabile numerica
 sns.displot(df['colonna1'])
-.histplot()
 
 ### Joint plot
 Compara due distribuzioni e traccia uno scatter plot
@@ -18,12 +17,12 @@ sns.jointplot(data=df, x='colonna1', y='colonna2')
 ### KDE plot
 sns.kdeplot(df['colonna1'])
 
-### Pair plots
+### Pair plot
 Plotta le relazioni tra tutte le feature numeriche del DataFrame
 sns.pairplot(df)
 
 ### Rug plots
-mi sembra inutile
+-
 
 ## Categorical plots
 Grafici adatti a feature CATEGORICHE
@@ -37,25 +36,41 @@ Come un barplot ma sulle ordinate ho la conta
 sns.countplot(data=df, x='sex)
 
 ### Box plot
+Permette di comparare variabili diverse e mostra informazioni extra come la mediana, da deviazione standard, eccetera
+'hue' permette di mostrare una terza variabile (categorica e distinguibile attraverso il colore)
+sns.boxplot(data=df, x='day', y='total_bill', hue='sex')
 
 ### Violin plot
+da capire meglio
+sns.violinplot(x='day',y='total_bill',data=tips_df, hue='sex',split=True)
 
 ### Strip plot
+irrilevante
 
 ### Swarm plot 
-
-### Palettes
-
+irrilevante
 
 ## Matrix plots
 
-### Heatmaps
+### Heatmap
+Mostra le correlazioni tra le variabili in modo visivo
+sns.heatmap(df.corr())
 
 ### Cluster map
+-
 
 ### Pair Grid
+Più scatter plot messi insieme 
 
 ### Facet Grid
-
+-
 
 ## Regression plots
+-
+
+
+# Priorità per EDA (Esplorazione dei Dati):
+- Distribuzione: displot, pairplot, kdeplot.
+- Relazioni: scatterplot, regplot, lmplot.
+- Categorie: barplot, boxplot, countplot.
+- Correlazioni: heatmap.
