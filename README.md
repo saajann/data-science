@@ -20,9 +20,10 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
   - [pandas.md](pandas/pandas.md): Introduzione a Pandas, una libreria fondamentale per la manipolazione e l'analisi dei dati.
 - **`matplotlib/`**
   - [matplotlib.md](matplotlib/matplotlib.md): Introduzione a Matplotlib, una libreria fondamentale per la visualizzazione dei dati.
+- **`seaborn/`**
+  - [seaborn.md](seaborn/seaborn.md): Introduzione a Seaborn, una libreria fondamentale per la visualizzazione avanzata dei dati.
     
 ### Prossimi argomenti
-- **Seaborn**: Visualizzazione avanzata dei dati.
 - **Machine Learning**: Teoria di base sul ML, algoritmi supervisionati e non supervisionati.
 - **Deep Learning**: Fondamenti di reti neurali e apprendimento profondo.
 - **Preprocessing dei dati**: 
@@ -40,3 +41,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 2**: Introduzione a [Matplotlib](matplotlib/matplotlib.md)
 - **Day 3**: [EDA](examples/01_iris_EDA.ipynb) sul dataset Iris per consolidare Pandas e Matplotlib
 - **Day 4**: [EDA](examples/02_titanic_EDA.ipynb) sul dataset Titanic e aggiunta una [scaletta](EDA/eda.md) da seguire quando si fa analisi esplorativa sui dati
+- **Day 5**: Introduzione a [Seaborn](seaborn/seaborn.md)
