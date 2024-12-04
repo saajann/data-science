@@ -42,3 +42,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 3**: [EDA](examples/01_iris_EDA.ipynb) sul dataset Iris per consolidare Pandas e Matplotlib
 - **Day 4**: [EDA](examples/02_titanic_EDA.ipynb) sul dataset Titanic e aggiunta una [scaletta](EDA/eda.md) da seguire quando si fa analisi esplorativa sui dati
 - **Day 5**: Introduzione a [Seaborn](seaborn/seaborn.md)
+- **Day 6**: [EDA](examples/03_football_EDA.ipynb) su un dataset di calciatori per consolidare Seaborn
