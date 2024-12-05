@@ -1,76 +1,73 @@
 # Seaborn
-
-È una libreria python usata per la data visualization che può essere considerata una estensione di Matplotlib: possiamo fare grafici complessi che prima richiedevano più righe di codice in una sola riga. Inoltre proprio come Matplotlib, Seaborn è facilmente integrabile con Pandas.
-
+È una libreria Python usata per la data visualization che può essere considerata una estensione di Matplotlib: possiamo fare grafici complessi che prima richiedevano più righe di codice in una sola riga. Inoltre, proprio come Matplotlib, Seaborn è facilmente integrabile con Pandas.
 
 ## Distribution plots
-Grafici adatti a feature NUMERICHE
+Grafici adatti a feature **numeriche**
 
 ### Distribution plot
-Mostra la distribuzione di una variabile numerica
+Mostra la distribuzione di una variabile numerica:
+```python
 sns.displot(df['colonna1'])
+```
 
 ### Joint plot
-Compara due distribuzioni e traccia uno scatter plot
+Compara due distribuzioni e traccia uno scatter plot:
+```python
 sns.jointplot(data=df, x='colonna1', y='colonna2')
+```
 
 ### KDE plot
+Mostra la stima della densità del kernel:
+```python
 sns.kdeplot(df['colonna1'])
+```
 
 ### Pair plot
-Plotta le relazioni tra tutte le feature numeriche del DataFrame
+Plotta le relazioni tra tutte le feature numeriche del DataFrame:
+```python
 sns.pairplot(df)
-
-### Rug plots
--
+```
 
 ## Categorical plots
-Grafici adatti a feature CATEGORICHE
+Grafici adatti a feature **categoriche**
 
 ### Bar plot
-Metto in relazione la distribuzione di una feature categorica a una feature numerica
+Mette in relazione la distribuzione di una feature categorica a una feature numerica:
+```python
 sns.barplot(data=df, x='sex', y='total_bill')
+```
 
 ### Count plot
-Come un barplot ma sulle ordinate ho la conta
-sns.countplot(data=df, x='sex)
+Come un bar plot ma sulle ordinate ho la conta:
+```python
+sns.countplot(data=df, x='sex')
+```
 
 ### Box plot
-Permette di comparare variabili diverse e mostra informazioni extra come la mediana, da deviazione standard, eccetera
-'hue' permette di mostrare una terza variabile (categorica e distinguibile attraverso il colore)
+Permette di comparare variabili diverse e mostra informazioni extra come la mediana, la deviazione standard, eccetera. 'hue' permette di mostrare una terza variabile (categorica e distinguibile attraverso il colore):
+```python
 sns.boxplot(data=df, x='day', y='total_bill', hue='sex')
-
-### Violin plot
-da capire meglio
-sns.violinplot(x='day',y='total_bill',data=tips_df, hue='sex',split=True)
-
-### Strip plot
-irrilevante
-
-### Swarm plot 
-irrilevante
+```
 
 ## Matrix plots
 
 ### Heatmap
-Mostra le correlazioni tra le variabili in modo visivo
-sns.heatmap(df.corr())
+Mostra le correlazioni tra le variabili in modo visivo:
+```python
+sns.heatmap(df.corr(), annot=True)
+```
 
-### Cluster map
--
+## Relational plots
+Grafici che mostrano relazioni tra variabili
 
-### Pair Grid
-Più scatter plot messi insieme 
+### Scatter plot
+Mostra la relazione tra due variabili numeriche:
+```python
+sns.scatterplot(data=df, x='colonna1', y='colonna2')
+```
 
-### Facet Grid
--
-
-## Regression plots
--
-
-
-# Priorità per EDA (Esplorazione dei Dati):
-- Distribuzione: displot, pairplot, kdeplot.
-- Relazioni: scatterplot, regplot, lmplot.
-- Categorie: barplot, boxplot, countplot.
-- Correlazioni: heatmap.
+### Line plot
+Mostra la relazione tra due variabili numeriche con una linea:
+```python
+sns.lineplot(data=df, x='colonna1', y='colonna2')
+```
