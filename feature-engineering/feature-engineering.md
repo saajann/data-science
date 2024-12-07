@@ -37,7 +37,15 @@ le = LabelEncoder()
 df['income_level'] = le.fit_transform(df['income_level'])
 ```
 
-### 5. Feature Selection
+### 5. Feature Scaling
+Normalizzare o standardizzare le feature per migliorare le prestazioni del modello.
+```python
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+df_scaled = scaler.fit_transform(df)
+```
+
+### 6. Feature Selection
 Identificare e rimuovere le feature meno rilevanti quando si hanno troppe feature.
 
 #### Correlazione
@@ -47,7 +55,7 @@ corr_matrix = df.corr()
 ```
 
 #### Metodi automatici di selezione
-Utilizzare strumenti come SelectKBest di scikit-learn per selezionare le migliori feature in base a un punteggio statistico.s
+Utilizzare strumenti come SelectKBest di scikit-learn per selezionare le migliori feature in base a un punteggio statistico
 ```python
 from sklearn.feature_selection import SelectKBest, f_classif
 selector = SelectKBest(f_classif, k=5)  # Seleziona le 5 migliori feature

@@ -49,3 +49,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 5**: Introduzione a [Seaborn](seaborn/seaborn.md)
 - **Day 6**: [EDA](EDA/03_football_EDA.ipynb) su un dataset di calciatori per consolidare Seaborn
 - **Day 7**: [EDA](EDA/04_superstore_EDA.ipynb) su un dataset di ordini per ripassare Pandas, Matplolib e Seaborn, introduzione alla [Feature Engineering](feature-engineering/feature-engineering.md), [feature engineering](feature-engineering/01_housing.ipynb) sul dataset Housing
+- **Day 9**: Ripasso Pandas, Matplotlib, Seaborn, EDA e feature engineering
