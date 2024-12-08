@@ -13,6 +13,8 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 ### Contenuto attuale
 - **`data/`**
   - Vari dataset usati durante lo studio
+- **`numpy/`**
+  - [numpy.md](numpy/numpy.md): Introduzione a Numpy.
 - **`pandas/`**
   - [pandas.md](pandas/pandas.md): Introduzione a Pandas, una libreria fondamentale per la manipolazione e l'analisi dei dati.
 - **`matplotlib/`**
@@ -27,6 +29,8 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **`feature-engineering/`**
   - [feature-engineering.md](feature-engineering/feature-engineering.md): Introduzione alla Feature Engineering.
   - [01_housing.ipynb](feature-engineering/01_housing.ipynb): Notebook contenente semplice feature engineering sul dataset Housing.
+- **`preprocessing/`**
+  - [preprocessing.md](preprocessing/preprocessing.md): Introduzione al Preprocessing dei dati.
 
 ### Prossimi argomenti
 - **Machine Learning**: Teoria di base sul ML, algoritmi supervisionati e non supervisionati.
@@ -50,4 +54,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 6**: [EDA](EDA/03_football_EDA.ipynb) su un dataset di calciatori per consolidare Seaborn
 - **Day 7**: [EDA](EDA/04_superstore_EDA.ipynb) su un dataset di ordini per ripassare Pandas, Matplolib e Seaborn, introduzione alla [Feature Engineering](feature-engineering/feature-engineering.md), [Feature Engineering](feature-engineering/01_housing.ipynb) sul dataset Housing
 - **Day 9**: Ripasso Pandas, Matplotlib, Seaborn, EDA e Feature Engineering
-- **Day 10**: Introduzione a [Numpy](numpy/numpy.md), introduzione al [Preprocessing](preprocessing/preprocessing.md) dei dati
+- **Day 10**: [Numpy](numpy/numpy.md), [Preprocessing](preprocessing/preprocessing.md) dei dati, [SQL](SQL/sql.md)
