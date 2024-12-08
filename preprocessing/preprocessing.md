@@ -1,5 +1,3 @@
-# Preprocessing
-
 # Pulizia dei dati
 
 ## Gestione dei Valori Mancanti
@@ -78,11 +76,11 @@ Usa per variabili ordinali con ordine.
 from sklearn.preprocessing import LabelEncoder
 
 # DataFrame di esempio con variabile ordinale
-df = pd.DataFrame({'Taglia': ['Piccolo', 'Medio', 'Grande', 'Medio']})
+df = pd.DataFrame({'Variabile': ['Basso', 'Medio', 'Alto', 'Medio']})
 
 # Label Encoding
 label_encoder = LabelEncoder()
-df['Taglia_Encoded'] = label_encoder.fit_transform(df['Taglia'])
+df['Variabile_Encoded'] = label_encoder.fit_transform(df['Variabile'])
 print(df)
 ```
 
@@ -92,21 +90,19 @@ print(df)
 
 ### Standardizzazione (Z-score)
 Trasforma i dati per avere media 0 e deviazione standard 1.
+Utilizza quando i dati seguono una distribuzione normale o quando l'algoritmo è sensibile alla distanza tra i punti (come SVM, KNN, regressione lineare). È meno sensibile agli outlier rispetto alla normalizzazione.
 
 ```python
 from sklearn.preprocessing import StandardScaler
-
-# DataFrame di esempio
-df = pd.DataFrame({'A': [1, 2, 3, 4], 'B': [2, 3, 4, 5]})
-
-# Standardizzazione
 scaler = StandardScaler()
 df_standardized = pd.DataFrame(scaler.fit_transform(df), columns=df.columns)
+df = scaler.fit_transform(df)
 print(df_standardized)
 ```
 
 ### Normalizzazione (Min-Max)
 Scala i dati a un intervallo specifico (ad es., 0-1).
+Utilizza quando vuoi ridurre i dati a un intervallo specifico (di solito [0, 1]). È preferibile quando usi algoritmi come le reti neurali o quando hai variabili con un intervallo definito. Tuttavia, fai attenzione agli outlier.
 
 ```python
 from sklearn.preprocessing import MinMaxScaler
