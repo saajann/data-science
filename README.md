@@ -21,6 +21,8 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
   - [matplotlib.md](matplotlib/matplotlib.md): Introduzione a Matplotlib, una libreria fondamentale per la visualizzazione dei dati.
 - **`seaborn/`**
   - [seaborn.md](seaborn/seaborn.md): Introduzione a Seaborn, una libreria fondamentale per la visualizzazione avanzata dei dati.
+- **`SQL/`**
+  - [sql.md](SQL/sql.md): Introduzione a SQL.
 - **`EDA/`**
   - [eda.md](EDA/eda.md): Introduzione all'Analisi Esplorativa dei Dati.
   - [01_iris_EDA.ipynb](EDA/01_iris_EDA.ipynb): Notebook contenente un'analisi esplorativa dei dati sul dataset Iris.
@@ -55,3 +57,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 7**: [EDA](EDA/04_superstore_EDA.ipynb) su un dataset di ordini per ripassare Pandas, Matplolib e Seaborn, introduzione alla [Feature Engineering](feature-engineering/feature-engineering.md), [Feature Engineering](feature-engineering/01_housing.ipynb) sul dataset Housing
 - **Day 9**: Ripasso Pandas, Matplotlib, Seaborn, EDA e Feature Engineering
 - **Day 10**: [Numpy](numpy/numpy.md), [Preprocessing](preprocessing/preprocessing.md) dei dati, [SQL](SQL/sql.md)
+- **Day 11**: Kaggle [Spaceship-Titanic](preprocessing/02_spaceship_titanic.ipynb) challenge
