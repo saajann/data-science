@@ -59,3 +59,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 10**: [Numpy](numpy/numpy.md), [Preprocessing](preprocessing/preprocessing.md) dei dati, [SQL](SQL/sql.md)
 - **Day 11**: Kaggle [Spaceship-Titanic](preprocessing/02_spaceship_titanic.ipynb) challenge
 - **Day 12**: Completato la Kaggle Spaceship-Titanic challenge con un punteggio di 0.78279
+- **Day 14**: Iniziata Kaggle [House-Prices](preprocessing/03_house_prices.ipynb) challenge
