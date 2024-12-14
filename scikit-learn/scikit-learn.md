@@ -18,6 +18,9 @@
 - **OneHotEncoder**: trasforma feature categoriali in binarie.
     - Metodi: `.fit()`, `.transform()`.
 
+### Custom Transformers
+- Creare trasformazioni personalizzate (usando `TransformerMixin` e `BaseEstimator`).
+
 ## 2. Pipeline
 - **Pipeline**: concatenazione di trasformazioni e modelli.
     - `Pipeline(steps=[('step_name', transformer_or_model)])`.
