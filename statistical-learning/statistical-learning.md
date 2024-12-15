@@ -1,4 +1,4 @@
-# An introduction to Statistical Learning
+# Introduction to Statistical Learning
 Playlist Youtube basata sul libro
 
 ### 1.1
@@ -11,3 +11,32 @@ Alcuni esempi di problemi statistici:
 - classificare una mail come spam;
 - riconoscere numeri / lettere scritte a mano;
 - capire quali sono i fattori che influenzano gli stipendi.
+
+### 1.2
+The supervised learning problem
+- X -> features
+- Y -> outcome
+- regression problem -> Y è quantitativa
+- classification problem -> Y è qualitativa
+
+The unsupervised learning problem
+- X -> features
+- no Y, no outcome, unlabeled data
+- raggruppare gli oggetti (clustering per esempio)
+- difficile capire come stai performando
+
+Statistical Learning vs Machine Learning
+
+### 2.1
+#### Introduzione a modelli di Regressione
+
+feature = input = predictor
+Un modello può essere scritto come: 
+Y = f(X) + €
+
+La funzione di regressione f(x)
+f(x) = f(x1,x2,x3) = f(Y|X1=x1,X2=x2,X3=x3)
+
+Possiamo avere un errore riducibili e uno irriducibile. Il nostro obiettivo è minimizzare l'errore riducibile
+
+Per stimare f posso guardare i punti 'vicini' alla mia X
