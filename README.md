@@ -61,3 +61,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 12**: Completato la Kaggle Spaceship-Titanic challenge con un punteggio di 0.78279
 - **Day 14**: Iniziata Kaggle [House-Prices](preprocessing/03_house_prices.ipynb) challenge
 - **Day 16**: Introduzione a Scikit-Learn
+- **Day 17**: Inizio "An introduction to Statistical Learning"
