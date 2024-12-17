@@ -56,3 +56,18 @@ Tradeoffs:
 - Prediction Accuracy vs interpretabilità
 - Good fit vs undefit / overfit
 - Poche feature vs tante feature
+
+## 2.3
+
+### Model Selection
+
+- Mean Squared Error (MSE) -> sul Test data
+
+### Bias-Variance Tradeoff
+
+Il tradeoff bias-varianza è un concetto fondamentale in machine learning e statistica. Esso descrive il compromesso tra due tipi di errori che un modello può fare:
+
+- **Bias**: errore dovuto a ipotesi troppo semplici nel modello. Un alto bias può portare a underfitting, dove il modello non cattura la complessità dei dati.
+- **Varianza**: errore dovuto a ipotesi troppo complesse nel modello. Un'alta varianza può portare a overfitting, dove il modello si adatta troppo ai dati di training e non generalizza bene ai nuovi dati.
+
+L'obiettivo è trovare un equilibrio tra bias e varianza per minimizzare l'errore totale.
