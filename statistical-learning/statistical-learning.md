@@ -91,3 +91,8 @@ K-nearest neightbors -> k è il parametro di fine tuning. Circa un terzo dei pro
 - Modello semplice ma efficace. 
 - Esempio pubblicità - vendite
 - Intervalli di confidenza
+
+## 3.2
+
+- Test d'ipotesi: ipotesi reale e ipotesi alternativa
+- R-squared
