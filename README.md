@@ -62,4 +62,5 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 14**: Iniziata Kaggle [House-Prices](preprocessing/03_house_prices.ipynb) challenge
 - **Day 16**: Introduzione a Scikit-Learn
 - **Day 17**: Inizio "Introduction to Statistical Learning"
-- **Day 18**: "Introduction to Statistical Learning" 2.2, 2.3 
+- **Day 19**: "Introduction to Statistical Learning" 2.2, 2.3 
+- **Day 20**: "ITSL" 2.4

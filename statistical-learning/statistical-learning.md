@@ -38,7 +38,7 @@ feature = input = predictor
 Un modello può essere scritto come: 
 Y = f(X) + €
 
-La funzione di regressione f(x)
+La funzione di regressione (lineare) f(x)
 
 f(x) = f(x1,x2,x3) = f(Y|X1=x1,X2=x2,X3=x3)
 
@@ -71,3 +71,15 @@ Il tradeoff bias-varianza è un concetto fondamentale in machine learning e stat
 - **Varianza**: errore dovuto a ipotesi troppo complesse nel modello. Un'alta varianza può portare a overfitting, dove il modello si adatta troppo ai dati di training e non generalizza bene ai nuovi dati.
 
 L'obiettivo è trovare un equilibrio tra bias e varianza per minimizzare l'errore totale.
+
+## 2.4
+
+### Classification 
+
+La Y è qualitativa (email spam o no).
+
+Per capire l'errore, semplicemente considero il numero di risposte sbagliate sul totale. 
+
+Regressione logistica 
+
+K-nearest neightbors -> k è il parametro di fine tuning. Circa un terzo dei problemi di classificazione può essere risolto con questo modello. Da tenere conto che questo modello può essere usato anche per problemi di regressione. 
