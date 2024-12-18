@@ -83,3 +83,11 @@ Per capire l'errore, semplicemente considero il numero di risposte sbagliate sul
 Regressione logistica 
 
 K-nearest neightbors -> k è il parametro di fine tuning. Circa un terzo dei problemi di classificazione può essere risolto con questo modello. Da tenere conto che questo modello può essere usato anche per problemi di regressione. 
+
+## 3.1
+
+### Simple Linear Regression
+
+- Modello semplice ma efficace. 
+- Esempio pubblicità - vendite
+- Intervalli di confidenza
