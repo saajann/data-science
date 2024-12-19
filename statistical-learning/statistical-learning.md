@@ -112,3 +112,8 @@ Se due feature sono correlate tra di loro, una delle due si potrebbe "scartare".
     - Forward Selection -> inizio con una feature, poi ne aggiungo un'altra ad ogni passo
     - Backward Selection -> inizio con tutte le feature, poi ne tolgo una ad ogni passo
 - Qualitative predictors -> One Hot Encoding
+
+## 3.5
+
+- Interazione tra due variabili qualitative oppure una quantitativa e una qualitativa
+- Un sacco di modelli più complessi si basano sulla regressione lineare

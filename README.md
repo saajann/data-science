@@ -64,4 +64,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 17**: Inizio "Introduction to Statistical Learning"
 - **Day 19**: "Introduction to Statistical Learning" 2.2, 2.3 
 - **Day 20**: "ITSL" 2.4, 3.1, 3.2
-- **Day 21**: "ITSL" 3.3, 3.4
+- **Day 21**: "ITSL" 3.3, 3.4, 3.5
