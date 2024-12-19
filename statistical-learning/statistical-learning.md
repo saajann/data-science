@@ -96,3 +96,11 @@ K-nearest neightbors -> k è il parametro di fine tuning. Circa un terzo dei pro
 
 - Test d'ipotesi: ipotesi reale e ipotesi alternativa
 - R-squared
+
+## 3.3
+
+### Multiple Linear Regression
+
+Come simple linear regression ma ho più di un predictor. 
+
+Se due feature sono correlate tra di loro, una delle due si potrebbe "scartare". 
