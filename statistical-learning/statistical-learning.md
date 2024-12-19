@@ -104,3 +104,11 @@ K-nearest neightbors -> k è il parametro di fine tuning. Circa un terzo dei pro
 Come simple linear regression ma ho più di un predictor. 
 
 Se due feature sono correlate tra di loro, una delle due si potrebbe "scartare". 
+
+## 3.4
+
+- Almeno una feature è utile per il modello?
+- Quali sono le feature veramente importanti? 
+    - Forward Selection -> inizio con una feature, poi ne aggiungo un'altra ad ogni passo
+    - Backward Selection -> inizio con tutte le feature, poi ne tolgo una ad ogni passo
+- Qualitative predictors -> One Hot Encoding
