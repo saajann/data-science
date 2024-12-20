@@ -117,3 +117,12 @@ Se due feature sono correlate tra di loro, una delle due si potrebbe "scartare".
 
 - Interazione tra due variabili qualitative oppure una quantitativa e una qualitativa
 - Un sacco di modelli più complessi si basano sulla regressione lineare
+
+## 4.1
+
+### Problemi di Classificazione
+
+- Y è qualitativa -> numero definito di variabili in output
+- Stimiamo la probabilità che X fa parte di ciascuna delle categorie di C 
+- **Logistic Regression** -> due categorie
+- Multiclass Logistic Regression o Discriminant Analysis -> più di due categorie 
