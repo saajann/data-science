@@ -66,4 +66,4 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 20**: "ITSL" 2.4, 3.1, 3.2
 - **Day 21**: "ITSL" 3.3, 3.4, 3.5
 - **Day 22**: "ITSL" 4.1
-- **Day 23**: "ITSL" 4.2
+- **Day 23**: "ITSL" 4.2, 4.3, 4.4

@@ -132,3 +132,11 @@ Se due feature sono correlate tra di loro, una delle due si potrebbe "scartare".
 ### Logistic Regression
 
 Probabilità tra 0 e 1
+
+## 4.3
+
+### Multivariate Logistic Regression
+
+## 4.4 
+
+- Case-Control Sampling -> mette in relazione le due categorie
