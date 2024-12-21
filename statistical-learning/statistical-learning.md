@@ -1,7 +1,7 @@
 # Introduction to Statistical Learning
 Playlist Youtube basata sul libro
 
-### 1.1
+## 1.1
 
 Introduzione alla statistica (che sta alla base del machine learning) e delle sue applicazioni nel mondo.
 
@@ -13,7 +13,7 @@ Alcuni esempi di problemi statistici:
 - riconoscere numeri / lettere scritte a mano;
 - capire quali sono i fattori che influenzano gli stipendi.
 
-### 1.2
+## 1.2
 
 The supervised learning problem
 - X -> features
@@ -29,7 +29,7 @@ The unsupervised learning problem
 
 Statistical Learning vs Machine Learning
 
-### 2.1
+## 2.1
 
 #### Introduzione a modelli di Regressione
 
@@ -126,3 +126,9 @@ Se due feature sono correlate tra di loro, una delle due si potrebbe "scartare".
 - Stimiamo la probabilità che X fa parte di ciascuna delle categorie di C 
 - **Logistic Regression** -> due categorie
 - Multiclass Logistic Regression o Discriminant Analysis -> più di due categorie 
+
+## 4.2
+
+### Logistic Regression
+
+Probabilità tra 0 e 1
