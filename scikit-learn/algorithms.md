@@ -2,8 +2,8 @@
 
 1. **Linear Regression**
    - **Regressore**
-   - [Video](https://youtu.be/CtsRRUddV2s?si=ufTa0_heV82pWy5G)
-   - ```python
+   - [Video YouTube spiegazione](https://youtu.be/CtsRRUddV2s?si=ufTa0_heV82pWy5G)
+```python
 from sklearn.linear_model import LinearRegression
 ```
 
