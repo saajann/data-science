@@ -1,9 +1,11 @@
 # Supervised Learning Algorithms
 
 1. **Linear Regression**
-   - **Regressor**
-   - For continuous variable prediction.
-   - Concepts: objective function, gradient descent.
+   - **Regressore**
+   - [Video](https://youtu.be/CtsRRUddV2s?si=ufTa0_heV82pWy5G)
+   - ```python
+from sklearn.linear_model import LinearRegression
+```
 
 2. **Logistic Regression**
    - **Classifier**
