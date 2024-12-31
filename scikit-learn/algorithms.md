@@ -1,7 +1,7 @@
 # Supervised Learning Algorithms
 
 1. **Linear Regression**
-   - **Regressore**
+   - **Regressor**
    - [Video YouTube spiegazione](https://youtu.be/CtsRRUddV2s?si=ufTa0_heV82pWy5G)
 ```python
 from sklearn.linear_model import LinearRegression
@@ -9,8 +9,11 @@ from sklearn.linear_model import LinearRegression
 
 2. **Logistic Regression**
    - **Classifier**
-   - For binary classification.
-   - Concepts: sigmoid function, log-loss.
+   - Per una classificazione binaria, modello adatto se hai poche feature
+   - [Video YouTube spiegazione](https://youtu.be/yIYKR4sgzI8?si=5hBf0Q403QVrUFq9)
+```python
+from sklearn.linear_model import LogisticRegression
+```
 
 3. **k-Nearest Neighbors (k-NN)**
    - **Classifier** (can also be used as a regressor)
