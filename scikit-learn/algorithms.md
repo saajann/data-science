@@ -16,9 +16,13 @@ from sklearn.linear_model import LogisticRegression
 ```
 
 3. **k-Nearest Neighbors (k-NN)**
-   - **Classifier** (can also be used as a regressor)
-   - For classification and regression based on proximity.
-   - Concepts: Euclidean distance, choosing \(k\).
+   - **Classifier** (può essere usato anche come Regressor)
+   - Per problemi di classificazione e regressione basati sulla prossimità
+   - [Video Youtube spiegazione](https://youtu.be/HVXime0nQeI?si=91PhjpdGTl0c4S7H)
+```python
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsRegressor
+```
 
 4. **Decision Trees**
    - **Classifier** (can also be used as a regressor)
