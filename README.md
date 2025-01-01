@@ -68,4 +68,5 @@ Ogni argomento è organizzato in cartelle specifiche con file Markdown che conte
 - **Day 22**: "ITSL" 4.1
 - **Day 23**: "ITSL" 4.2, 4.3, 4.4
 - **Day 32**: Ripasso librerie, Linear Regression
-- **Day 33**: [Logistic Regression](scikit-learn/models/logistic_regression.ipynb), con esempio
+- **Day 33**: [Logistic Regression](scikit-learn/models/logistic_regression.ipynb) con esempio
+- **Day 34**: esempio [Linear Regression](scikit-learn/models/linear_regression.ipynb)
