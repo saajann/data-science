@@ -25,9 +25,14 @@ from sklearn.neighbors import KNeighborsRegressor
 ```
 
 4. **Decision Trees**
-   - **Classifier** (can also be used as a regressor)
-   - Iterative splitting of data.
-   - Concepts: Gini impurity, entropy.
+   - **Classifier** (può essere usato anche come Regressor)
+   - Classification Tree / Regression Tree
+   - Adatto a dataset con poche feature, rischio di overfitting
+   - [Video Youtube spiegazione](https://youtu.be/JcI5E2Ng6r4?si=StBDYKgwCNZYBZfY)
+```python
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeRegressor
+```
 
 5. **Random Forest**
    - **Classifier** (can also be used as a regressor)
