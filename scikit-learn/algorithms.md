@@ -35,16 +35,23 @@ from sklearn.tree import DecisionTreeRegressor
 ```
 
 5. **Random Forest**
-   - **Classifier** (can also be used as a regressor)
-   - An ensemble of decision trees.
-   - Concepts: bagging, out-of-bag error.
+   - **Classifier** (può essere usato anche come Regressor)
+   - Un insieme di Decision Trees.
+   - [Video Youtube spiegazione](https://youtu.be/v6VJ2RO66Ag?feature=shared)
+   ```python
+   from sklearn.ensemble import RandomForestClassifier
+   from sklearn.ensemble import RandomForestRegressor
+   ```
 
 6. **Support Vector Machines (SVM)**
    - **Classifier** (can also be used as a regressor)
    - Classification by maximizing margins.
    - Concepts: kernel trick, margin maximization.
 
-7. **Gradient Boosting (e.g., XGBoost, LightGBM)**
+7. **Naive Bayes**
+   - **Classifier**
+
+8. **Gradient Boosting (e.g., XGBoost, LightGBM)**
    - **Classifier** (can also be used as a regressor)
    - Powerful algorithms for classification/regression.
    - Concepts: boosting, overfitting control.
