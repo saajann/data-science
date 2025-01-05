@@ -38,15 +38,20 @@ from sklearn.tree import DecisionTreeRegressor
    - **Classifier** (può essere usato anche come Regressor)
    - Un insieme di Decision Trees.
    - [Video Youtube spiegazione](https://youtu.be/v6VJ2RO66Ag?feature=shared)
-   ```python
-   from sklearn.ensemble import RandomForestClassifier
-   from sklearn.ensemble import RandomForestRegressor
-   ```
+```python
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestRegressor
+```
 
 6. **Support Vector Machines (SVM)**
-   - **Classifier** (can also be used as a regressor)
-   - Classification by maximizing margins.
-   - Concepts: kernel trick, margin maximization.
+   - **Classifier** (può essere usato anche come Regressor)
+   - Adatti a dataset piccoli ma con tante feature
+   - Adatti a classificazione binaria 
+   - [Video Youtube spiegazione](https://youtu.be/_YPScrckx28?si=g28PpybyZrDoZEhs)
+```python
+from sklearn.svm import SVC
+from sklearn.svm import SVR
+```
 
 7. **Naive Bayes**
    - **Classifier**
