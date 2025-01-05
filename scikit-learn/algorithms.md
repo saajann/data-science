@@ -55,6 +55,9 @@ from sklearn.svm import SVR
 
 7. **Naive Bayes**
    - **Classifier**
+```python
+from sklearn.naive_bayes import GaussianNB
+```
 
 8. **Gradient Boosting (e.g., XGBoost, LightGBM)**
    - **Classifier** (can also be used as a regressor)
