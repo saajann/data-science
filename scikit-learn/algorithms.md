@@ -59,10 +59,10 @@ from sklearn.svm import SVR
 from sklearn.naive_bayes import GaussianNB
 ```
 
-8. **Gradient Boosting (e.g., XGBoost, LightGBM)**
-   - **Classifier** (can also be used as a regressor)
-   - Powerful algorithms for classification/regression.
-   - Concepts: boosting, overfitting control.
+8. **Gradient Boosting (e.g., XGBoost)**
+   - **Classifier** (possono essere usati anche come Regressor)
+   - Capacità di catturare relazioni non lineari
+   - Adatto per dati strutturati
 
 ---
 
